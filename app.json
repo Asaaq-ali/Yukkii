@@ -15,12 +15,12 @@
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "",
+      "value": "28450951",
       "required": true
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "",
+      "value": "86ecdb94b4dade3baa295fa3d9459106",
       "required": true
     },
     "BOT_TOKEN": {
@@ -40,12 +40,12 @@
     },
     "MONGO_DB_URI": {
       "description": "Mongo DB URL",
-      "value": "",
+      "value": "mongodb+srv://asaaq:1234@cluster0.tz8mj32.mongodb.net/?retryWrites=true&w=majority",
       "required": true
     },
     "MUSIC_BOT_NAME": {
       "description": "A name for your Music Bot.",
-      "value": "",
+      "value": "soha",
       "required": true
     },
     "SUPPORT_CHANNEL": {
@@ -60,7 +60,7 @@
     },
     "OWNER_ID": {
       "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-      "value": "",
+      "value": "6228635168",
       "required": true
     },
     "STRING_SESSION1": {
@@ -100,12 +100,12 @@
     },
     "LOG_GROUP_ID": {
       "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
-      "value": "",
+      "value": "-1001578985166",
       "required": true
     },
     "SUDO_USERS": {
       "description": "The user id(s) of user(s) whom you would like to add as a SUDO. Multiple values shall be seperated with a space.",
-      "value": "",
+      "value": "6228635168",
       "required": true
     },
     "LOG_SESSION": {
@@ -115,7 +115,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "If you dont know this, Leave as it is",
-      "value": "https://github.com/DEV-SONIC/RevorMusic",
+      "value": "https://github.com/Asaaq-ali/Yukkii",
       "required": true
     },
     "UPSTREAM_BRANCH": {
@@ -138,7 +138,7 @@
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "free"
+            "size": "eco"
         }
     },
     "stack": "container"
