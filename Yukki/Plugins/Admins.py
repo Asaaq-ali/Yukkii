@@ -64,7 +64,7 @@ Only for Sudo Users
 
 
 @app.on_message(
-    filters.command(["pause", "skip", "resume", "stop", "end"])
+    filters.command(["قف", "تخطي", "واصل", "انهاء", "end"],"")
     & filters.group
 )
 @AdminRightsCheck
